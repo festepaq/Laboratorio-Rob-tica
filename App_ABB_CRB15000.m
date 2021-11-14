@@ -1,4 +1,4 @@
-classdef App_ABB_CRB_15000_code < matlab.apps.AppBase
+classdef App_ABB_CRB15000 < matlab.apps.AppBase
 
     % Properties that correspond to app components
     properties (Access = public)
@@ -699,14 +699,14 @@ classdef App_ABB_CRB_15000_code < matlab.apps.AppBase
             % Show the figure after all components are created
             app.ABB_CRB_15000.Visible = 'on';
         end
-        
+
     end
 
     % App creation and deletion
     methods (Access = public)
 
         % Construct app
-        function app = App_ABB_CRB_15000_code
+        function app = App_ABB_CRB15000
 
             % Create UIFigure and components
             createComponents(app)
