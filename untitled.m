@@ -1,4 +1,3 @@
-
 clear all; close all;
 syms theta_1 theta_2 theta_3 theta_4 theta_5 theta_6  
 %q1=0; q2=0; q3=0; q4=0; q5=0; q6=0;
