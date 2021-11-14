@@ -80,10 +80,10 @@ classdef App_ABB_CRB15000 < matlab.apps.AppBase
                pos_x(i+1) = [translation(1)];
                pos_y(i+1) = [translation(2)];
                pos_z(i+1) = [translation(3)];
-               plot3(app.grafica,pos_x(i+1),pos_y(i+1),pos_z(i+1),'-o' , 'Color' , 'b' , 'MarkerSize' , 15,'MarkerFaceColor','b')
+               plot3(app.grafica,pos_x(i+1),pos_y(i+1),pos_z(i+1),'-o' , 'Color' , 'b' , 'MarkerSize' , 10,'MarkerFaceColor','b')
            end
 
-           plot3(app.grafica,pos_x,pos_y,pos_z,'LineWidth',10,'Color',[.6 0 0]);
+           plot3(app.grafica,pos_x,pos_y,pos_z,'LineWidth',5,'Color',[.6 0 0]);
            view(app.grafica,140,30);
            axis(app.grafica,[-1 1 -1 1 -0.67 1.3]);
            hold(app.grafica,'off');
@@ -143,10 +143,10 @@ classdef App_ABB_CRB15000 < matlab.apps.AppBase
                pos_x(i+1) = [translation(1)];
                pos_y(i+1) = [translation(2)];
                pos_z(i+1) = [translation(3)];
-               plot3(app.grafica,pos_x(i+1),pos_y(i+1),pos_z(i+1),'-o' , 'Color' , 'b' , 'MarkerSize' , 15,'MarkerFaceColor','b')
+               plot3(app.grafica,pos_x(i+1),pos_y(i+1),pos_z(i+1),'-o' , 'Color' , 'b' , 'MarkerSize' , 10,'MarkerFaceColor','b')
            end
 
-           plot3(app.grafica,pos_x,pos_y,pos_z,'LineWidth',10,'Color',[.6 0 0]);
+           plot3(app.grafica,pos_x,pos_y,pos_z,'LineWidth',5,'Color',[.6 0 0]);
            view(app.grafica,140,30);
            axis(app.grafica,[-1 1 -1 1 -0.67 1.3]);
            hold(app.grafica,'off');
@@ -290,10 +290,10 @@ classdef App_ABB_CRB15000 < matlab.apps.AppBase
                pos_x(i+1) = [translation(1)];
                pos_y(i+1) = [translation(2)];
                pos_z(i+1) = [translation(3)];
-               plot3(app.grafica,pos_x(i+1),pos_y(i+1),pos_z(i+1),'-o' , 'Color' , 'b' , 'MarkerSize' , 15,'MarkerFaceColor','b')
+               plot3(app.grafica,pos_x(i+1),pos_y(i+1),pos_z(i+1),'-o' , 'Color' , 'b' , 'MarkerSize' , 10,'MarkerFaceColor','b')
            end
 
-           plot3(app.grafica,pos_x,pos_y,pos_z,'LineWidth',10,'Color',[.6 0 0]);
+           plot3(app.grafica,pos_x,pos_y,pos_z,'LineWidth',5,'Color',[.6 0 0]);
            view(app.grafica,140,30);
            axis(app.grafica,[-1 1 -1 1 -0.67 1.3]);
            hold(app.grafica,'off');
@@ -353,10 +353,10 @@ classdef App_ABB_CRB15000 < matlab.apps.AppBase
                pos_x(i+1) = [translation(1)];
                pos_y(i+1) = [translation(2)];
                pos_z(i+1) = [translation(3)];
-               plot3(app.grafica,pos_x(i+1),pos_y(i+1),pos_z(i+1),'-o' , 'Color' , 'b' , 'MarkerSize' , 15,'MarkerFaceColor','b')
+               plot3(app.grafica,pos_x(i+1),pos_y(i+1),pos_z(i+1),'-o' , 'Color' , 'b' , 'MarkerSize' , 10,'MarkerFaceColor','b')
            end
 
-           plot3(app.grafica,pos_x,pos_y,pos_z,'LineWidth',10,'Color',[.6 0 0]);
+           plot3(app.grafica,pos_x,pos_y,pos_z,'LineWidth',5,'Color',[.6 0 0]);
            view(app.grafica,140,30);
            axis(app.grafica,[-1 1 -1 1 -0.67 1.3]);
            hold(app.grafica,'off');
@@ -416,10 +416,10 @@ classdef App_ABB_CRB15000 < matlab.apps.AppBase
                pos_x(i+1) = [translation(1)];
                pos_y(i+1) = [translation(2)];
                pos_z(i+1) = [translation(3)];
-               plot3(app.grafica,pos_x(i+1),pos_y(i+1),pos_z(i+1),'-o' , 'Color' , 'b' , 'MarkerSize' , 15,'MarkerFaceColor','b')
+               plot3(app.grafica,pos_x(i+1),pos_y(i+1),pos_z(i+1),'-o' , 'Color' , 'b' , 'MarkerSize' , 10,'MarkerFaceColor','b')
            end
 
-           plot3(app.grafica,pos_x,pos_y,pos_z,'LineWidth',10,'Color',[.6 0 0]);
+           plot3(app.grafica,pos_x,pos_y,pos_z,'LineWidth',5,'Color',[.6 0 0]);
            view(app.grafica,140,30);
            axis(app.grafica,[-1 1 -1 1 -0.67 1.3]);
            hold(app.grafica,'off');
@@ -478,10 +478,10 @@ classdef App_ABB_CRB15000 < matlab.apps.AppBase
                pos_x(i+1) = [translation(1)];
                pos_y(i+1) = [translation(2)];
                pos_z(i+1) = [translation(3)];
-               plot3(app.grafica,pos_x(i+1),pos_y(i+1),pos_z(i+1),'-o' , 'Color' , 'b' , 'MarkerSize' , 15,'MarkerFaceColor','b')
+               plot3(app.grafica,pos_x(i+1),pos_y(i+1),pos_z(i+1),'-o' , 'Color' , 'b' , 'MarkerSize' , 10,'MarkerFaceColor','b')
            end
 
-           plot3(app.grafica,pos_x,pos_y,pos_z,'LineWidth',10,'Color',[.6 0 0]);
+           plot3(app.grafica,pos_x,pos_y,pos_z,'LineWidth',5,'Color',[.6 0 0]);
            view(app.grafica,140,30);
            axis(app.grafica,[-1 1 -1 1 -0.67 1.3]);
            hold(app.grafica,'off');
