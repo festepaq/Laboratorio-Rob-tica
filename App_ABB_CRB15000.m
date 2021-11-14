@@ -699,6 +699,7 @@ classdef App_ABB_CRB_15000_code < matlab.apps.AppBase
             % Show the figure after all components are created
             app.ABB_CRB_15000.Visible = 'on';
         end
+        
     end
 
     % App creation and deletion
