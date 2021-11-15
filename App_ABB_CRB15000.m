@@ -182,7 +182,6 @@ classdef App_ABB_CRB15000 < matlab.apps.AppBase
            app.info_q4.Value = round(q_4*180/pi,2);
            app.info_q5.Value = round(q_5*180/pi,2);
            app.info_q6.Value = round(q_6*180/pi,2);
-
            app.posX.Value = round(translation(1)*1000,2);
            app.posY.Value = round(translation(2)*1000,2);
            app.posZ.Value = round(translation(3)*1000,2);
