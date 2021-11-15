@@ -84,6 +84,19 @@ classdef App_ABB_CRB15000 < matlab.apps.AppBase
            end
 
            plot3(app.grafica,pos_x,pos_y,pos_z,'LineWidth',5,'Color',[.6 0 0]);
+
+           tool = MTH_BC*[0.15 0 0 1]';
+           pos_tool_x = [pos_x(7) tool(1)];
+           pos_tool_y = [pos_y(7) tool(2)];
+           pos_tool_z = [pos_z(7) tool(3)];
+           plot3(app.grafica,pos_tool_x,pos_tool_y,pos_tool_z,'LineWidth',2,'Color','r');
+
+           tool = MTH_BC*[0 0 0.2 1]';
+           pos_tool_x = [pos_x(7) tool(1)];
+           pos_tool_y = [pos_y(7) tool(2)];
+           pos_tool_z = [pos_z(7) tool(3)];
+           plot3(app.grafica,pos_tool_x,pos_tool_y,pos_tool_z,'LineWidth',2,'Color','c');
+
            view(app.grafica,140,30);
            axis(app.grafica,[-1 1 -1 1 -0.67 1.3]);
            hold(app.grafica,'off');
